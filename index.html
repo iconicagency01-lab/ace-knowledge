@@ -1,192 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ace Education Academy — Personalized Tutoring in Finance, Accounting, Economics &amp; Statistics</title>
-    <meta name="description" content="One-on-one tutoring in Finance, Accounting, Economics, and Business Statistics. High school to graduate level. Online or in person. Flexible scheduling, real results.">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Ace Education Academy — Personalized Tutoring in Finance, Accounting, Economics &amp; Statistics</title>
+  <meta name="description" content="One-on-one tutoring in Finance, Accounting, Economics, and Business Statistics. High school to graduate level. Online or in person. Free consultation.">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- NAV -->
-<nav class="nav" id="nav">
-    <div class="nav-in">
-        <a href="index.html"><img src="https://res.cloudinary.com/dsh3tzujw/image/upload/v1774471866/WhatsApp_Image_2026-03-25_at_9.10.03_PM_xwjxak.png" alt="Ace Education Academy" class="nav-logo"></a>
-        <ul class="nav-mid">
-            <li><a href="subjects.html">Subjects</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="pricing.html">Pricing</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <div class="nav-r">
-            <a href="tel:+19024037003" class="nav-tel">(902) 403-7003</a>
-            <a href="pricing.html#booking" class="nav-btn">Get Started</a>
-            <button class="ham" id="ham" aria-label="Menu"><span></span><span></span><span></span></button>
-        </div>
-    </div>
-    <div class="mob" id="mob">
-        <a href="subjects.html" onclick="cm()">Subjects</a>
-        <a href="about.html" onclick="cm()">About</a>
-        <a href="pricing.html" onclick="cm()">Pricing</a>
-        <a href="contact.html" onclick="cm()">Contact</a>
-        <a href="pricing.html#booking" onclick="cm()">Get Started — Free Consultation</a>
-    </div>
-</nav>
+<nav class="nav" id="nav"><div class="nav-in">
+  <a href="index.html"><img src="https://res.cloudinary.com/dsh3tzujw/image/upload/v1774471866/WhatsApp_Image_2026-03-25_at_9.10.03_PM_xwjxak.png" alt="Ace Education Academy" class="nav-logo"></a>
+  <ul class="nav-mid">
+    <li><a href="subjects.html">Subjects</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="pricing.html">Pricing</a></li>
+    <li><a href="booking.html">Contact</a></li>
+  </ul>
+  <div class="nav-r">
+    <a href="tel:+19024037003" class="nav-tel">(902) 403-7003</a>
+    <a href="booking.html" class="nav-cta">Get Started</a>
+    <button class="ham" id="ham" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</div>
+<div class="mob" id="mob">
+  <a href="subjects.html" onclick="cm()">Subjects</a>
+  <a href="about.html" onclick="cm()">About</a>
+  <a href="pricing.html" onclick="cm()">Pricing</a>
+  <a href="booking.html" onclick="cm()">Contact</a>
+  <a href="booking.html" onclick="cm()">Get Started — Free Consultation</a>
+</div></nav>
 
 <!-- HERO -->
 <section class="hero">
-    <div class="hero-content">
-        <div class="hero-label rv">Tutoring — Online &amp; In Person</div>
-        <h1 class="rv rv-d1">Finally<br><em>understand</em><br>the material.</h1>
-        <p class="hero-body rv rv-d2">One-on-one tutoring in Finance, Accounting, Economics, and Business Statistics — tailored to your course, your pace, your goals.</p>
-        <div class="hero-actions rv rv-d3">
-            <a href="pricing.html#booking" class="cta">
-                Get Started — Free Consultation
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-            </a>
-            <a href="https://wa.me/19024037003?text=Hi%2C%20I%27m%20interested%20in%20tutoring." target="_blank" rel="noopener" class="link-subtle">Message on WhatsApp</a>
-        </div>
+  <div class="hero-content">
+    <div class="hero-label rv">Tutoring — Online &amp; In Person</div>
+    <h1 class="rv d1">Finally<br><em>understand</em><br>the material.</h1>
+    <p class="hero-sub rv d2">One-on-one tutoring in Finance, Accounting, Economics, and Business Statistics — tailored to your course, your pace, your goals.</p>
+    <div class="hero-btns rv d3">
+      <a href="booking.html" class="btn btn-p">Get Started — Free Consultation <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+      <a href="https://wa.me/19024037003?text=Hi%2C%20I%27m%20interested%20in%20tutoring." target="_blank" rel="noopener" class="link-s">Message on WhatsApp</a>
     </div>
-    <div class="hero-photo rv rv-d2">
-        <img src="https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Professional tutor ready to help" class="hero-img">
-        <div class="hero-float">
-            <div class="hero-float-num">4.9</div>
-            <div class="hero-float-text">Average student rating</div>
-        </div>
-    </div>
+  </div>
+  <div class="hero-photo rv d2">
+    <img src="https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Professional tutor ready to help" class="hero-img">
+    <div class="hero-float"><div class="hero-float-n">4.9</div><div class="hero-float-t">Average student rating</div></div>
+  </div>
 </section>
 
 <!-- TRUST -->
 <div class="trust">
-    <div class="trust-item rv"><div class="trust-n">200+</div><div class="trust-t">Sessions delivered</div></div>
-    <div class="trust-div"></div>
-    <div class="trust-item rv rv-d1"><div class="trust-n">15+</div><div class="trust-t">Universities served</div></div>
-    <div class="trust-div"></div>
-    <div class="trust-item rv rv-d2"><div class="trust-n">4.9</div><div class="trust-t">Average rating</div></div>
-    <div class="trust-div"></div>
-    <div class="trust-item rv rv-d3"><div class="trust-n">HS → Grad</div><div class="trust-t">Every level</div></div>
+  <div class="trust-in">
+    <div class="rv"><div class="trust-n">200+</div><div class="trust-t">Sessions delivered</div></div>
+    <div class="rv d1"><div class="trust-n">15+</div><div class="trust-t">Universities served</div></div>
+    <div class="rv d2"><div class="trust-n">4.9</div><div class="trust-t">Average rating</div></div>
+    <div class="rv d3"><div class="trust-n">HS → Grad</div><div class="trust-t">Every level</div></div>
+  </div>
 </div>
 
 <!-- SUBJECTS OVERVIEW -->
-<section class="subjects-home" id="subjects">
+<section class="sec" id="subjects">
+  <div class="wrap subjects-h">
     <div class="subjects-intro">
-        <div class="section-label rv">What I Teach</div>
-        <h2 class="section-heading rv rv-d1">Four subjects.<br>Tailored to<br>your course.</h2>
-        <p class="section-body rv rv-d2">I work with your actual textbook, syllabus, and assignments — so every session directly moves the needle.</p>
-        <div style="margin-top:32px" class="rv rv-d3">
-            <a href="subjects.html" class="link-subtle">View all subjects in detail</a>
-        </div>
+      <div class="label rv">What I Teach</div>
+      <h2 class="heading rv d1">Four subjects.<br>Tailored to<br>your course.</h2>
+      <p class="subtext rv d2">I work with your actual textbook, syllabus, and assignments — so every session directly moves the needle.</p>
+      <div style="margin-top:24px" class="rv d3"><a href="subjects.html" class="link-s">View all subjects in detail</a></div>
     </div>
-    <div class="subjects-cards">
-        <div class="scard rv">
-            <div class="scard-num">01</div>
-            <div>
-                <h3>Finance</h3>
-                <p>Time value of money, capital budgeting, portfolio theory, corporate finance. I connect formulas to real decisions.</p>
-                <div class="tags"><span class="tag">High School</span><span class="tag">Undergraduate</span><span class="tag">Graduate</span></div>
-            </div>
-        </div>
-        <div class="scard rv">
-            <div class="scard-num">02</div>
-            <div>
-                <h3>Accounting</h3>
-                <p>Journal entries, financial statements, cost accounting, and managerial reporting. The debits and credits will make sense.</p>
-                <div class="tags"><span class="tag">High School</span><span class="tag">Undergraduate</span><span class="tag">Graduate</span></div>
-            </div>
-        </div>
-        <div class="scard rv">
-            <div class="scard-num">03</div>
-            <div>
-                <h3>Economics</h3>
-                <p>Micro, macro, econometrics, trade, monetary policy. I break down models until the logic clicks.</p>
-                <div class="tags"><span class="tag">High School</span><span class="tag">Undergraduate</span><span class="tag">Graduate</span></div>
-            </div>
-        </div>
-        <div class="scard rv">
-            <div class="scard-num">04</div>
-            <div>
-                <h3>Business Statistics</h3>
-                <p>Probability, hypothesis testing, regression, ANOVA. Step by step, no intimidation.</p>
-                <div class="tags"><span class="tag">High School</span><span class="tag">Undergraduate</span><span class="tag">Graduate</span></div>
-            </div>
-        </div>
+    <div class="scards">
+      <div class="sc rv"><div class="sc-n">01</div><div><h3>Finance</h3><p>Time value of money, capital budgeting, portfolio theory, corporate finance. I connect formulas to real decisions.</p><div class="tags"><span class="tag">High School</span><span class="tag">Undergraduate</span><span class="tag">Graduate</span></div></div></div>
+      <div class="sc rv"><div class="sc-n">02</div><div><h3>Accounting</h3><p>Journal entries, financial statements, cost accounting, and managerial reporting. The debits and credits will make sense.</p><div class="tags"><span class="tag">High School</span><span class="tag">Undergraduate</span><span class="tag">Graduate</span></div></div></div>
+      <div class="sc rv"><div class="sc-n">03</div><div><h3>Economics</h3><p>Micro, macro, econometrics, trade, monetary policy. I break down models until the logic clicks.</p><div class="tags"><span class="tag">High School</span><span class="tag">Undergraduate</span><span class="tag">Graduate</span></div></div></div>
+      <div class="sc rv"><div class="sc-n">04</div><div><h3>Business Statistics</h3><p>Probability, hypothesis testing, regression, ANOVA. Step by step, no intimidation.</p><div class="tags"><span class="tag">High School</span><span class="tag">Undergraduate</span><span class="tag">Graduate</span></div></div></div>
     </div>
+  </div>
 </section>
 
 <!-- HOW IT WORKS -->
-<section class="how-it-works">
-    <div class="how-inner">
-        <div class="how-head">
-            <div class="section-label rv" style="justify-content:center">How It Works</div>
-            <h2 class="section-heading rv rv-d1" style="text-align:center">Three steps to better grades.</h2>
-        </div>
-        <div class="steps">
-            <div class="step rv">
-                <div class="step-num">1</div>
-                <h3>Tell me what you need</h3>
-                <p>Share your course, your upcoming exam or assignment, and where you are struggling. The first consultation is free.</p>
-            </div>
-            <div class="step rv rv-d1">
-                <div class="step-num">2</div>
-                <h3>We build your plan</h3>
-                <p>I review your material and create a focused session plan that targets exactly what will improve your grade.</p>
-            </div>
-            <div class="step rv rv-d2">
-                <div class="step-num">3</div>
-                <h3>Learn and improve</h3>
-                <p>We work through problems together — online or in person — until the concepts click and the results follow.</p>
-            </div>
-        </div>
+<section class="sec how">
+  <div class="wrap" style="text-align:center">
+    <div class="label rv" style="justify-content:center">How It Works</div>
+    <h2 class="heading rv d1">Three steps to better grades.</h2>
+    <div class="steps">
+      <div class="step rv"><div class="step-n">1</div><h3>Tell me what you need</h3><p>Share your course, your upcoming exam or assignment, and where you are struggling. The first consultation is free.</p></div>
+      <div class="step rv d1"><div class="step-n">2</div><h3>We build your plan</h3><p>I review your material and create a focused session plan that targets exactly what will improve your grade.</p></div>
+      <div class="step rv d2"><div class="step-n">3</div><h3>Learn and improve</h3><p>We work through problems together — online or in person — until the concepts click and the results follow.</p></div>
     </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="sec" id="reviews">
+  <div class="wrap">
+    <div class="label rv">Testimonials</div>
+    <h2 class="heading rv d1">What students say.</h2>
+    <div class="testi-big rv d2">
+      <blockquote>"I was completely lost in Intermediate Accounting. After just a few sessions, I went from a D to a B+ on my final. She breaks things down in a way that actually makes sense — I wish I had found her at the start of the semester."</blockquote>
+      <div class="testi-a"><div class="testi-nm">Sarah M.</div><div class="testi-dt">Dalhousie University — Intermediate Accounting</div></div>
+    </div>
+    <div class="testi-row">
+      <div class="testi-sm rv"><blockquote>"She made business statistics so much less intimidating. I actually understand hypothesis testing now."</blockquote><div class="testi-a"><div class="testi-nm">James K.</div><div class="testi-dt">Saint Mary's University — Business Statistics</div></div></div>
+      <div class="testi-sm rv d1"><blockquote>"Flexible, patient, and really knows her material. She helped me through graduate-level modules I had been stuck on for months."</blockquote><div class="testi-a"><div class="testi-nm">Priya R.</div><div class="testi-dt">Graduate Studies — Financial Reporting</div></div></div>
+    </div>
+  </div>
 </section>
 
 <!-- INTERLUDE -->
-<section class="interlude">
-    <div class="interlude-in rv">
-        <blockquote>"I don't lecture at you — I work through problems with you until the concept clicks."</blockquote>
-        <div class="interlude-line"></div>
-    </div>
-</section>
+<section class="interlude"><div class="interlude-in rv">
+  <blockquote>"I don't lecture at you — I work through problems with you until the concept clicks."</blockquote>
+  <div class="interlude-line"></div>
+</div></section>
 
-<!-- CTA BAND -->
+<!-- CTA -->
 <section class="cta-band">
-    <h2>Ready to get started?</h2>
-    <p>Your first consultation is free. No commitment, no pressure — just a conversation about how I can help.</p>
-    <div class="cta-band-actions">
-        <a href="pricing.html#booking" class="cta-white">Get Started — Free Consultation</a>
-        <a href="https://wa.me/19024037003?text=Hi%2C%20I%27m%20interested%20in%20tutoring." target="_blank" rel="noopener" class="cta-ghost">Message on WhatsApp</a>
-    </div>
+  <h2>Ready to get started?</h2>
+  <p>Your first consultation is free. No commitment, no pressure.</p>
+  <div class="cta-band-btns">
+    <a href="booking.html" class="btn btn-w">Get Started — Free Consultation</a>
+    <a href="https://wa.me/19024037003?text=Hi%2C%20I%27m%20interested%20in%20tutoring." target="_blank" rel="noopener" class="btn btn-g">Message on WhatsApp</a>
+  </div>
 </section>
 
-<!-- FOOTER -->
-<footer class="foot">
-    <div class="foot-in">
-        <a href="index.html"><img src="https://res.cloudinary.com/dsh3tzujw/image/upload/v1774471866/WhatsApp_Image_2026-03-25_at_9.10.03_PM_xwjxak.png" alt="Ace Education Academy" class="foot-logo"></a>
-        <nav class="foot-nav">
-            <a href="subjects.html">Subjects</a>
-            <a href="about.html">About</a>
-            <a href="pricing.html">Pricing</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-        <div class="foot-c">&copy; 2026 Ace Education Academy</div>
-    </div>
-</footer>
+<footer class="foot"><div class="foot-in">
+  <a href="index.html"><img src="https://res.cloudinary.com/dsh3tzujw/image/upload/v1774471866/WhatsApp_Image_2026-03-25_at_9.10.03_PM_xwjxak.png" alt="Ace Education Academy" class="foot-logo"></a>
+  <nav class="foot-nav"><a href="subjects.html">Subjects</a><a href="about.html">About</a><a href="pricing.html">Pricing</a><a href="booking.html">Contact</a></nav>
+  <div class="foot-c">&copy; 2026 Ace Education Academy</div>
+</div></footer>
 
-<!-- WA FLOAT -->
 <a href="https://wa.me/19024037003?text=Hi%2C%20I%27m%20interested%20in%20tutoring." target="_blank" rel="noopener" class="wa" aria-label="WhatsApp"><svg viewBox="0 0 32 32"><path d="M16.004 0h-.008C7.174 0 0 7.176 0 16c0 3.5 1.128 6.744 3.046 9.378L1.054 31.29l6.118-1.958A15.924 15.924 0 0 0 16.004 32C24.826 32 32 24.822 32 16S24.826 0 16.004 0zm9.312 22.594c-.39 1.1-1.932 2.014-3.168 2.28-.846.18-1.95.324-5.67-1.218-4.762-1.974-7.828-6.81-8.066-7.126-.228-.316-1.924-2.562-1.924-4.888s1.218-3.468 1.65-3.942c.432-.474.944-.592 1.258-.592.314 0 .63.002.904.016.29.014.68-.11 1.064.812.39.944 1.336 3.27 1.454 3.506.118.236.196.512.04.828-.158.316-.236.512-.472.79-.236.276-.496.616-.708.826-.236.236-.482.492-.208.966.276.474 1.226 2.022 2.632 3.276 1.81 1.614 3.336 2.114 3.81 2.35.474.236.75.196 1.026-.118.276-.316 1.18-1.374 1.494-1.848.314-.474.63-.394 1.064-.236.432.158 2.758 1.3 3.232 1.536.474.236.788.354.906.552.118.196.118 1.148-.272 2.25z"/></svg></a>
 
 <script>
-const nav=document.getElementById('nav');
-window.addEventListener('scroll',()=>nav.classList.toggle('scrolled',window.scrollY>20));
-const ham=document.getElementById('ham'),mob=document.getElementById('mob');
-ham.addEventListener('click',()=>mob.classList.toggle('open'));
-function cm(){mob.classList.remove('open')}
-const obs=new IntersectionObserver(e=>{e.forEach(x=>{if(x.isIntersecting){x.target.classList.add('vis');obs.unobserve(x.target)}})},{threshold:.12,rootMargin:'0px 0px -32px 0px'});
-document.querySelectorAll('.rv').forEach(el=>obs.observe(el));
+const nav=document.getElementById('nav');window.addEventListener('scroll',()=>nav.classList.toggle('scrolled',window.scrollY>10));
+const ham=document.getElementById('ham'),mob=document.getElementById('mob');ham.addEventListener('click',()=>mob.classList.toggle('open'));function cm(){mob.classList.remove('open')}
+const obs=new IntersectionObserver(e=>{e.forEach(x=>{if(x.isIntersecting){x.target.classList.add('vis');obs.unobserve(x.target)}})},{threshold:.1,rootMargin:'0px 0px -24px 0px'});document.querySelectorAll('.rv').forEach(el=>obs.observe(el));
 </script>
 </body>
 </html>
